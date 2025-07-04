@@ -9,12 +9,12 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define TIMEOUT_COMBO_2 175
-#define TIMEOUT_COMBO_3 175
-#define TIMEOUT_COMBO_4 175
-#define TIMEOUT_COMBO_5 175
+#define TIMEOUT_COMBO_2 150
+#define TIMEOUT_COMBO_3 150
+#define TIMEOUT_COMBO_4 150
+#define TIMEOUT_COMBO_5 150
 
-#define TIMEOUT_LAYER_HOLD 200
+#define TIMEOUT_LAYER_HOLD 150
 #define TIMEOUT_STICKY_LEADER_KEY 5000
 
 #define QUICK_TAP_TIME 200
