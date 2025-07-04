@@ -76,7 +76,7 @@
         combo_colon   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_O KEY_H KEY_E KEY_T>; bindings = <&kp COLON>; };
         // T: 5th row
         combo_grave   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_H KEY_A KEY_T>; bindings = <&kp GRAVE>; };
-        combo_tilde   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_N KEY_E KEY_T>; bindings = <&kp TILDE>; };
+        combo_qmark   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_N KEY_E KEY_T>; bindings = <&kp QMARK>; };
 
         // Symbol: 1st row
         combo_squote  { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_N>; bindings = <&kp SQT>; };
