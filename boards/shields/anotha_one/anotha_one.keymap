@@ -177,6 +177,9 @@
         // Modifiers: 4th row
         combo_escape  { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_E>; bindings = <&kp ESCAPE>; };
         combo_enter   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_SPACE KEY_E>; bindings = <&kp ENTER>; };
+
+        // Custom keybinds
+        combo_under   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_SPACE KEY_O>; bindings = <&kp UNDER>; };
     };
 };
 
