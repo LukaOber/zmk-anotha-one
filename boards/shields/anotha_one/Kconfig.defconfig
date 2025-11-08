@@ -4,6 +4,6 @@
 if SHIELD_ANOTHA_ONE
 
 config ZMK_KEYBOARD_NAME
-    default "Anotha One"
+    default "Sleipnir"
 
 endif

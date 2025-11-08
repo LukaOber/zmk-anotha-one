@@ -25,3 +25,9 @@ include:
     shield: anotha_one
   - board: seeeduino_xiao
     shield: anotha_one
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+  - board: seeeduino_xiao_rp2040
+    shield: settings_reset
+  - board: seeeduino_xiao
+    shield: settings_reset
