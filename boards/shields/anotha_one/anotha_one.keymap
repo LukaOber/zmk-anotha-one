@@ -86,8 +86,8 @@
         combo_amps    { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_A>; bindings = <&kp AMPS>; };
         combo_dollar  { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_O KEY_E>; bindings = <&kp DOLLAR>; };
         // Symbol: 3rd row
-        combo_lpar    { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_A>; bindings = <&kp LPAR>; };
-        combo_rpar    { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_E>; bindings = <&kp RPAR>; };
+        combo_lbkt    { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_A>; bindings = <&kp LBKT>; };
+        combo_rbkt    { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_E>; bindings = <&kp RBKT>; };
         // Symbol: 4th row
         combo_bslh    { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_O KEY_N KEY_A>; bindings = <&kp BSLH>; };
         combo_colon   { layers = <LAYER_ID_SYM>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_O KEY_H KEY_E>; bindings = <&kp COLON>; };
@@ -246,8 +246,8 @@
         symbol {
             bindings = <
                 &kp SPACE        &kp SEMI
-                &kp LBRC         &kp LBKT
-                &kp RBRC         &kp RBKT
+                &kp LBRC         &kp LPAR
+                &kp RBRC         &kp RPAR
                 &kp BSPC         &mo LAYER_ID_SYM
             >;
         };
