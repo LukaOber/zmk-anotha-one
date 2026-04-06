@@ -18,16 +18,25 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+board:
+  - seeeduino_xiao_ble
+  - seeeduino_xiao_rp2040
+  - seeeduino_xiao
+
+shield:
+  - settings_reset
+
 include:
+  # Central (primary half)
   - board: seeeduino_xiao_ble
     shield: anotha_one
-  - board: seeeduino_xiao_rp2040
-    shield: anotha_one
-  - board: seeeduino_xiao
-    shield: anotha_one
+    cmake-args: >
+      -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    artifact-name: anotha_one_central
+
+  # Peripheral (secondary half)
   - board: seeeduino_xiao_ble
-    shield: settings_reset
-  - board: seeeduino_xiao_rp2040
-    shield: settings_reset
-  - board: seeeduino_xiao
-    shield: settings_reset
+    shield: anotha_one
+    cmake-args: >
+      -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    artifact-name: anotha_one_peripheral
