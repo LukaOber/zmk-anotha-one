@@ -60,7 +60,7 @@
         combo_f       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_H KEY_E>; bindings = <&kp F>; };
         // Base: 4th row
         combo_x       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_O KEY_N KEY_A>; bindings = <&kp X>; };
-        combo_q       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_O KEY_H KEY_E>; bindings = <&qu_macro>; };
+        combo_q       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_O KEY_H KEY_E>; bindings = <&kp Q>; };
         // Base: 5th row
         combo_comma   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_H KEY_A>; bindings = <&kp COMMA>; };
         combo_period  { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_N KEY_E>; bindings = <&kp PERIOD>; };
