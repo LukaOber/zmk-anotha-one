@@ -199,7 +199,7 @@
         combo_insert  { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_O KEY_H>; bindings = <&kp INSERT>; };
         combo_tab     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_SPACE KEY_A>; bindings = <&kp TAB>; };
         // Modifiers: 4th row
-        combo_escape  { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_O KEY_N>; bindings = <&kp ESCAPE>; };
+        combo_escape  { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_N>; bindings = <&kp ESCAPE>; };
         combo_enter   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_SPACE KEY_E>; bindings = <&kp ENTER>; };
     };
 };
